@@ -8,7 +8,7 @@ for any 01Studio Board has an DS18B20 & DHT11 driver but not a MicroPython Drive
 ##References:
 The GXHT30 MicroPython Driver has transplant from SHT3x. So you We'll see datasheet of here.
 * [Sensor Datasheet](https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf)
-* [GXHT30 Datasheet](https://atta.szlcsc.com/upload/public/pdf/source/20210421/C2758005_1AAAA4DD875C189861E5CD415617BEF2.pdf?Expires=4070880000&OSSAccessKeyId=LTAIJDIkh7KmGS1H&Signature=RSKSP%2FgQfazn4QoFrVZ9DNe5LVk%3D&response-content-disposition=attachment%3Bfilename%3DC2758005_%25E6%25B8%25A9%25E6%25B9%25BF%25E5%25BA%25A6%25E4%25BC%25A0%25E6%2584%259F%25E5%2599%25A8_2021-04-21.PDF) from sensor manufacturer
+* [GXHT30 Datasheet]() from sensor manufacturer
 
 ##Examples of use:
 
@@ -62,7 +62,7 @@ print('Is connected:', sensor.is_present())
 
 ###Read sensor status
 
-Check the [Sensor Datasheet](https://atta.szlcsc.com/upload/public/pdf/source/20210421/C2758005_1AAAA4DD875C189861E5CD415617BEF2.pdf?Expires=4070880000&OSSAccessKeyId=LTAIJDIkh7KmGS1H&Signature=RSKSP%2FgQfazn4QoFrVZ9DNe5LVk%3D&response-content-disposition=attachment%3Bfilename%3DC2758005_%25E6%25B8%25A9%25E6%25B9%25BF%25E5%25BA%25A6%25E4%25BC%25A0%25E6%2584%259F%25E5%2599%25A8_2021-04-21.PDF) for further info about sensor status register
+Check the [Sensor Datasheet]() for further info about sensor status register
 ```python
 from GXHT30 import GXHT30
 
