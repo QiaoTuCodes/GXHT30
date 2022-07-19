@@ -18,7 +18,7 @@ The `measure()` method returns a tuple with the temperature in celsius grades an
 If the measurement cannot be performed then an exception is raised (`GXHT30Error`)
 
 ```python
-from GXHT30 import GXHT30
+from gxht30 import GXHT30
 
 sensor = GXHT30()
 
@@ -52,7 +52,7 @@ print('Sensor measurement', raw_measure)
 ###Check if shield is connected
 
 ```python
-from GXHT30 import GXHT30
+from gxht30 import GXHT30
 
 sensor = GXHT30()
 
@@ -64,7 +64,7 @@ print('Is connected:', sensor.is_present())
 
 Check the [Sensor Datasheet](https://github.com/QiaoTuCodes/GXHT30/blob/main/CXCAS-GXHT30.PDF) for further info about sensor status register
 ```python
-from GXHT30 import GXHT30
+from gxht30 import GXHT30
 
 sensor = GXHT30()
 
@@ -82,7 +82,7 @@ sensor.clear_status()
 The driver allows a soft reset of the sensor
 
 ```python
-from GXHT30 import GXHT30
+from gxht30 import GXHT30
 
 sensor = GXHT30()
 sensor.reset()
@@ -96,7 +96,7 @@ sensor.reset()
 When the driver cannot access to the measurement an exception `GXHT30Error` is raised
 
 ```python
-from GXHT30 import GXHT30
+from gxht30 import GXHT30
 
 sensor = GXHT30()
 
