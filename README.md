@@ -5,7 +5,7 @@ MicroPython Driver for [GXHT30]
 The driver has been tested on 01Studio Columbus board. but It should work on whatever other micropython board, if anyone find problems in other boards, please open an issue and We'll see.
 
 ##Motivation
-The GXHT30 shield for any ESPs Board has an DS18B20 & DHT11 driver but not a MicroPython one.
+The GXHT30 shield for any 01Studio Board has an DS18B20 & DHT11 driver but not a MicroPython one.
 
 ##References:
 The GXHT30 MicroPython Driver has transplant from SHT3x. So you We'll see datasheet of here.
