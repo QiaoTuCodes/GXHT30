@@ -1,5 +1,3 @@
-#GXHT30 Sensor driver in MicroPython
-
 MicroPython Driver for [GXHT30]
 
 The driver has been tested on 01Studio Columbus board. but It should work on whatever other micropython board, if anyone find problems in other boards, please open an issue and We'll see.
